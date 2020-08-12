@@ -1,0 +1,46 @@
+@mixin paragraphs {
+  text-align: center;
+  max-width: 200px;
+  background-color: lightblue;
+  .link {
+    @content;
+  }
+} 
+@mixin blackspace($topBottom, $leftRgiht) {
+  padding: $topBottom $leftRgiht;
+}
+
+@mixin mediaQuerie($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin someColors($varios...) {
+  @for $i from 1 through length($varios) {
+    .element--#{nth($varios, $i)} {
+      background-color: nth($varios, $i);
+    }
+  }
+}
+p {
+  @include paragraphs{
+    list-style: none;
+  }
+}
+
+body {
+  @include mediaQuerie(500px) {
+    background-color: red;
+  }
+  @include mediaQuerie(600px) {
+    background-color: blue;
+  }
+  @include mediaQuerie(700px) {
+    background-color: green;
+  }
+}
+
+body {
+  @include someColors(red, blue, purple, yellow, pink, green, brown);
+}

@@ -1,0 +1,22 @@
+// COndicionaoles @if
+
+$dev: true;
+
+@if (5>2) and (2>1){
+  * {
+    border: 1px solid teal;
+  }
+}@else {
+  * {
+    border: 1px solid red;
+  }
+}
+@if (5>2) or (0>1){
+  * {
+    border: 1px solid lime;
+  }
+}@else {
+  * {
+    border: 1px solid red;
+  }
+}

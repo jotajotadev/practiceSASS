@@ -1,0 +1,9 @@
+body {
+  width: percentage(0.5);
+  padding: max(120,20,10);
+  margin: min(120,20,10);
+  index: floor(4.9);
+  index: ceil(4.1);
+  index: round(4.5);
+  index: random(10);
+}

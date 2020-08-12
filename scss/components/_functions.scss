@@ -1,0 +1,13 @@
+@function doubleEm($number) {
+  @return ($number * 2) *1em;
+}
+
+@function pxToRem($number, $base: 16){
+  $result: ($number / $base) * 1rem;
+  @return $result; 
+}
+
+p {
+  padding: doubleEm(4);
+  font-size: pxToRem(68);
+}

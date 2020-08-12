@@ -1,0 +1,17 @@
+// los placeholder son snippes de codigo que podemos reutilizar
+
+%button-basics {
+  background-color: map-get($mapita, primary);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: map-get($mapita, secondary);
+  display: block;
+  max-width: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button {
+  @extend %button-basics;
+}

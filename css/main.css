@@ -1,0 +1,183 @@
+primary, secondary, warm, danger, success {
+  background-color: teal;
+}
+
+.button {
+  background-color: #00008b;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #ebebeb;
+  display: block;
+  max-width: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+* {
+  border: 1px solid teal;
+}
+
+* {
+  border: 1px solid lime;
+}
+
+.element:nth-child(1) {
+  background-color: teal;
+}
+
+.element:nth-child(2) {
+  background-color: teal;
+}
+
+.element:nth-child(3) {
+  background-color: teal;
+}
+
+.element:nth-child(4) {
+  background-color: teal;
+}
+
+.element:nth-child(5) {
+  background-color: teal;
+}
+
+.element:nth-child(6) {
+  background-color: teal;
+}
+
+.element:nth-child(7) {
+  background-color: teal;
+}
+
+.element:nth-child(8) {
+  background-color: teal;
+}
+
+.element:nth-child(9) {
+  background-color: teal;
+}
+
+.element:nth-child(10) {
+  background-color: teal;
+}
+
+.element--red {
+  background-color: red;
+}
+
+.element--blue {
+  background-color: blue;
+}
+
+.element--white {
+  background-color: white;
+}
+
+.element--primary {
+  background-color: #00008b;
+}
+
+.element--secondary {
+  background-color: #ebebeb;
+}
+
+.element--warm {
+  background-color: #d4eb0b;
+}
+
+.element--danger {
+  background-color: #f74639;
+}
+
+.element--success {
+  background-color: #03d80e;
+}
+
+p {
+  text-align: center;
+  max-width: 200px;
+  background-color: lightblue;
+}
+
+p .link {
+  list-style: none;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: green;
+  }
+}
+
+body .element--red {
+  background-color: red;
+}
+
+body .element--blue {
+  background-color: blue;
+}
+
+body .element--purple {
+  background-color: purple;
+}
+
+body .element--yellow {
+  background-color: yellow;
+}
+
+body .element--pink {
+  background-color: pink;
+}
+
+body .element--green {
+  background-color: green;
+}
+
+body .element--brown {
+  background-color: brown;
+}
+
+p {
+  padding: 8em;
+  font-size: 4.25rem;
+}
+
+*::before {
+  content: quoute(fail);
+}
+
+*::before {
+  content: unquoute(fail);
+}
+
+body {
+  index: 10;
+}
+
+body {
+  index: 6;
+}
+
+body {
+  width: 50%;
+  padding: 120;
+  margin: 10;
+  index: 4;
+  index: 5;
+  index: 5;
+  index: 7;
+}
+/*# sourceMappingURL=main.css.map */

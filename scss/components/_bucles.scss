@@ -1,0 +1,24 @@
+// bucles en sass
+// bucle for
+
+@for $i from 1 through 10 {
+  .element:nth-child(#{$i}) {
+    background-color: teal;
+  }
+}
+
+// bucle each
+
+@each $values in $listas {
+  .element--#{$values} {
+    background-color: $values;
+  }
+}
+
+// bucle each para mapas
+
+@each $key, $value in $mapita {
+  .element--#{$key} {
+    background-color: $value;
+  }
+}

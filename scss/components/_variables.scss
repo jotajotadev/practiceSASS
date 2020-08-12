@@ -1,0 +1,16 @@
+// Declarando variables en SASS
+
+$number: 20em;
+$string: "texto";
+$color: #eee;
+$boolean: true;
+$boolean2: false !default;
+$listas: red blue white;
+$mapita: (
+  primary: #00008b,
+  secondary: #ebebeb,
+  warm: rgb(212, 235, 11),
+  danger: rgb(247, 70, 57),
+  success: rgb(3, 216, 14)
+); 
+

@@ -1,0 +1,13 @@
+*::before {
+  content: quoute(fail);
+}
+*::before {
+  content: unquoute(fail);
+}
+$cantidad: "hola mundo";
+body {
+  index: str-length($cantidad);
+}
+body {
+  index: str-index($cantidad, "m");
+}
